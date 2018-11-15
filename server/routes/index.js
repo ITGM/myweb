@@ -9,5 +9,10 @@ router.get('/api', function(req, res, next) {
         name:'json'
     })
 });
-
+router.get('/api/id', function(req, res, next) {
+    res.json({
+        id:1,
+        name:'id'
+    })
+});
 module.exports = router;
