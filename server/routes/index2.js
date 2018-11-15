@@ -5,7 +5,7 @@ var router = express.Router();
 
 router.get('/api', function(req, res, next) {
     res.json({
-        id:1,
+        id:2,
         name:'json'
     })
 });
